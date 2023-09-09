@@ -10,9 +10,9 @@
 
 ## association
 
-has_many :room_users
-has_many :rooms,through:room_users
-has_many :messages
+-has_many :room_users
+-has_many :rooms,through:room_users
+-has_many :messages
 
 ## roomsテーブル
 
@@ -22,9 +22,9 @@ has_many :messages
 
 ## association
 
-has_many :room_users
-has_many :rooms,through:room_users
-has_many :messages
+-has_many :room_users
+-has_many :rooms,through:room_users
+-has_many :messages
 
 ## room-usersテーブル
 
@@ -35,8 +35,8 @@ has_many :messages
 
 ## association
 
-belongs_to :room
-belongs_to :user
+-belongs_to :room
+-belongs_to :user
 
 ## messagesテーブル
 
@@ -48,5 +48,5 @@ belongs_to :user
 
 ## association
 
-belongs_to :room
-belongs_to :user
+-belongs_to :room
+-belongs_to :user
