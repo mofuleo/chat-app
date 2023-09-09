@@ -29,7 +29,7 @@ has_many :messages
 ## room-usersテーブル
 
 | Column      |  Type        |    Options                    |
-|-------------| ----------   |------------------ ----------  |
+|-------------| -----------  |-----------------------------  |
 |user         | references   | null: false,foreign_key: true |
 |room         | references   | null: false,foreign_key: true |
 
@@ -41,7 +41,7 @@ belongs_to :user
 ## messagesテーブル
 
 | Column      |  Type        |    Options                    |
-|-------------| ----------   |------------------ ----------  |
+|-------------| ----------   |-----------------------------  |
 |content      | string       |                               |
 |user         | references   | null: false,foreign_key: true |
 |room         | references   | null: false,foreign_key: true |
