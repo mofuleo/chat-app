@@ -1,7 +1,7 @@
 class RoomUser < ApplicationRecord
- belongs_to :user
- belongs_to :room
+  belongs_to :room
+  belongs_to :user
  
 
-  validates :name, presence: true
+  # validates :name, presence: true
 end
